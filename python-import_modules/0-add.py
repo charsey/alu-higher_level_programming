@@ -1,6 +1,6 @@
-#!/usr/bin/python3
-from add_0 import add
-:x
-    a = 1
-    b = 2
-    print("{} + {} = {}".format(a, b, add(a, b)))
+# 0-add.py
+
+def add(a, b):
+    return a + b
+
+print("__name__ inside 0-add.py:", __name__)
